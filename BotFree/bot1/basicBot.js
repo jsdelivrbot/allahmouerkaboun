@@ -54,7 +54,7 @@
     var loadChat = function (cb) {
         if (!cb) cb = function () {
         };
-        $.get("https://rawgit.com/motelbible/basicBot/master/lang/langIndex.json", function (json) {
+        $.get("https://rawgit.com/chanches/allahmouerkaboun/master/BotFree/bot1/lang/langIndex.json", function (json) {
             var link = basicBot.chatLink;
             if (json !== null && typeof json !== "undefined") {
                 langIndex = json;
@@ -184,17 +184,17 @@
         status: false,
         name: "basicBot",
         loggedInID: null,
-        scriptLink: "https://rawgit.com/motelbible/basicBot/master/basicBot.js",
+        scriptLink: "https://rawgit.com/chanches/allahmouerkaboun/master/BotFree/bot1/basicBot.js",
         cmdLink: "http://git.io/veGHZ",
-        chatLink: "https://rawgit.com/motelbible/basicBot/master/lang/pt.json",
+        chatLink: "https://rawgit.com/chanches/allahmouerkaboun/master/BotFree/bot1/lang/pt.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: "basicBot",
-            language: "portuguese",
-            chatLink: "https://rawgit.com/motelbible/basicBot/master/lang/pt.json",
+            botName: "Ds Villa (BOT) ",
+            language: "english",
+            chatLink: "https://rawgit.com/chanches/allahmouerkaboun/master/BotFree/bot1/lang/pt.json",
             startupCap: 1, // 1-200
             startupVolume: 0, // 0-100
             startupEmoji: false, // true ou false
